@@ -37,7 +37,10 @@
 {{/* Favicons. Google Search only reliably picks up a raster icon, and an SVG on
      its own tends to leave the generic globe in results, so a real .ico at the
      site root and a 96px PNG are declared alongside it. Browsers that understand
-     sizes="any" still prefer the crisp SVG. */}}
+     sizes="any" still prefer the crisp SVG.
+     Note: the raster .ico/.png intentionally use a zoomed-in paw because Google
+     crops favicons into a small circle, which left the standard mark looking tiny.
+     The SVG and apple-touch-icon keep the standard (less zoomed) paw for tabs/iOS. */}}
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
 <link rel="icon" href="{{ "favicon-96.png" | relURL }}" type="image/png" sizes="96x96">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">

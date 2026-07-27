@@ -1,10 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="pp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8460bb"/>
+      <stop offset="1" stop-color="#553d8c"/>
+    </linearGradient>
+  </defs>
   <rect width="64" height="64" rx="14" fill="#78cfe8"/>
-  <g fill="#6748a6">
-    <circle cx="20" cy="26" r="5.2"/>
-    <circle cx="31" cy="20" r="5.2"/>
-    <circle cx="44" cy="26" r="5.2"/>
-    <circle cx="50" cy="37" r="4.6"/>
-    <path d="M32 30c7 0 12.5 4.8 14.3 10.8 1.5 5-2.2 9.5-7.4 9.5-2.4 0-4.5-.9-6.9-.9s-4.5.9-6.9.9c-5.2 0-8.9-4.5-7.4-9.5C19.5 34.8 25 30 32 30z"/>
+  <g transform="translate(32 32) scale(1.26) translate(-34.7 -32.55)">
+    <g fill="#f7f2da" stroke="#f7f2da" stroke-width="3.4" stroke-linejoin="round">
+      <circle cx="20" cy="26" r="5.2"/>
+      <circle cx="31" cy="20" r="5.2"/>
+      <circle cx="44" cy="26" r="5.2"/>
+      <circle cx="50" cy="37" r="4.6"/>
+      <path d="M32 30c7 0 12.5 4.8 14.3 10.8 1.5 5-2.2 9.5-7.4 9.5-2.4 0-4.5-.9-6.9-.9s-4.5.9-6.9.9c-5.2 0-8.9-4.5-7.4-9.5C19.5 34.8 25 30 32 30z"/>
+    </g>
+    <g fill="url(#pp)">
+      <circle cx="20" cy="26" r="5.2"/>
+      <circle cx="31" cy="20" r="5.2"/>
+      <circle cx="44" cy="26" r="5.2"/>
+      <circle cx="50" cy="37" r="4.6"/>
+      <path d="M32 30c7 0 12.5 4.8 14.3 10.8 1.5 5-2.2 9.5-7.4 9.5-2.4 0-4.5-.9-6.9-.9s-4.5.9-6.9.9c-5.2 0-8.9-4.5-7.4-9.5C19.5 34.8 25 30 32 30z"/>
+    </g>
   </g>
 </svg>
